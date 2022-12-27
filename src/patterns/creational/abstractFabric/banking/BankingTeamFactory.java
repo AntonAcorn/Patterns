@@ -8,7 +8,7 @@ import patterns.creational.abstractFabric.Tester;
 public class BankingTeamFactory implements ProjectTeamFactory {
     @Override
     public Developer getDeveloper() {
-        return new JaveDeveloper();
+        return new JavaDeveloper();
     }
 
     @Override
